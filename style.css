@@ -109,6 +109,6 @@ body {
         background-position: center;
         background-repeat: no-repeat;
     }
-    
-    
+    .container input {
+        width: 80%;    
 }
