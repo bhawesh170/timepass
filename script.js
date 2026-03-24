@@ -8,7 +8,7 @@ btn.addEventListener("click", function() {
         alert("गधी ! जो बुलाता हूँ वो नाम डालो ।");
     } else {
         main.style.display = "none";
-        main.style.background = url("ravi.jpg");
+        main.style.backgroundImg = url("ravi.jpg");
         alert("मुझसे शादी करोगी ?");
     }
 });
