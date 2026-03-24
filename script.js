@@ -4,11 +4,11 @@ let btn = document.querySelector("button");
 
 btn.addEventListener("click", function() {
     let name = input.value;
-    if (name !== "Gadhi") {
-        alert("गधी जो बुलाता हूँ वो नाम डालो ।");
+    if (name !== "gadhi") {
+        alert("गधी ! जो बुलाता हूँ वो नाम डालो ।");
     } else {
-        alert("मुझसे शादी करोगी ?");
-        main.style.backgroundColor = "pink";
         main.style.display = "none";
+        main.style.background = url("ravi.jpg");
+        alert("मुझसे शादी करोगी ?");
     }
 });
