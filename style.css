@@ -104,5 +104,10 @@ body {
         text-align: center;
         margin-top: 700px;
     }
+    body {
+        background-size: contain;
+        background-position: center;
+    }
+    
     
 }
