@@ -94,3 +94,15 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+    .result {
+        font-size: 2em;
+        text-align: center;
+        margin-top: 700px;
+    }
+    
+}
